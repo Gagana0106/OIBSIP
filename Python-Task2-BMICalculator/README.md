@@ -40,3 +40,8 @@ Python Programming Internship – Oasis Infobyte
 
 ## Author
 Gagana
+
+## Project Demo Video
+Watch the demonstration of the Advanced BMI Calculator here:
+[View BMI Calculator Demo](PASTE_YOUR_VIDEO_LINK_HERE)
+

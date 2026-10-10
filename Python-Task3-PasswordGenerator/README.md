@@ -1,49 +1,42 @@
-# OIBSIP – Task 3: Advanced Password Generator
+# Advanced Password Generator
 
 ## Project Overview
-The Advanced Password Generator is a Python application that generates secure and random passwords based on the user's preferences. It provides a graphical user interface (GUI) using Tkinter and uses Python's `secrets` module for secure password generation.
+The Advanced Password Generator is a Python application that generates secure, random passwords based on the user's preferences. It provides a graphical user interface using Tkinter and includes password strength checking and clipboard functionality.
 
 ## Features
-- Generate passwords with a customizable length from 8 to 20 characters.
-- Select uppercase letters, lowercase letters, digits, and symbols.
-- Exclude ambiguous characters such as `0`, `O`, `I`, `l`, and `1`.
-- Display password strength as Weak, Medium, or Strong.
-- Copy generated passwords to the clipboard.
-- View the last five generated passwords during the current session.
-- Validate user selections before generating a password.
+* User-friendly graphical interface using Tkinter.
+* Generates passwords with a customizable length from 8 to 20 characters.
+* Allows selection of uppercase letters, lowercase letters, digits, and symbols.
+* Uses secure random generation with Python's `secrets` module.
+* Excludes ambiguous characters such as `0`, `O`, `I`, `l`, and `1`.
+* Displays password strength as Weak, Medium, or Strong.
+* Copies generated passwords to the clipboard.
+* Stores the last five generated passwords in session history.
+* Validates user selections before generating passwords.
 
 ## Technologies Used
-- Python
-- Tkinter
-- Secrets
-- String
-- Pyperclip
-
-## Installation
-Install the required library by running:
-
-```bash
-python -m pip install pyperclip
-```
+* Python
+* Tkinter
+* Secrets
+* String
+* Pyperclip
 
 ## How to Run
-1. Download or clone this repository.
-2. Open the project folder.
-3. Open the Python file in IDLE or another Python editor.
-4. Run the program.
-5. Select your preferred character types and password length.
-6. Click the generate button to create a password.
-7. Use the copy option to copy the password to the clipboard.
-
-## Security
-The application uses Python's `secrets` module to generate passwords securely. Users can customize the character types included in the generated password.
-
-**Note:** Password history is stored only during the current application session and is not saved permanently.
-
-## Learning Outcome
-This project demonstrates the use of Python GUI development, secure random password generation, input validation, clipboard functionality, and password-strength assessment.
+1. Install Python 3.
+2. Install Pyperclip using `python -m pip install pyperclip`.
+3. Run `password_generator.py`.
+4. Select the desired password length and character types.
+5. Click the Generate button to create a password.
+6. Use the Copy option to copy the generated password to the clipboard.
 
 ## Internship
-**Organization:** Oasis Infobyte  
-**Internship Track:** Python Programming  
-**Task:** Task 3 – Advanced Password Generator
+Python Programming Internship – Oasis Infobyte
+
+## Author
+Gagana 
+
+## Project Demo Video
+Watch the demonstration of the Advanced Password Generator here:
+
+
+[View Password Generator Demo](PASTE_YOUR_VIDEO_LINK_HERE)
